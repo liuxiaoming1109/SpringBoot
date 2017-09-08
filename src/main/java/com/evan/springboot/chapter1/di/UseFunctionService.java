@@ -1,4 +1,4 @@
-package com.evan.springboot.chapter1;
+package com.evan.springboot.chapter1.di;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
