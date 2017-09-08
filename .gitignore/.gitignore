@@ -20,6 +20,8 @@
 *.DS_Store
 *.iml
 
+.DS_Store
+
 target/
 logs/
 .idea/
