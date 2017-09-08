@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @ComponentScan，自动扫描包名下所有使用@Service、@Component、@Repository和@Controller的类并注册为Bean
  */
 @Configuration
-@ComponentScan("com.evan.springboot.chapter1")
-public class FunctionConfig {
+@ComponentScan("com.evan.springboot.chapter1.di")
+public class DiConfig {
 
 }
