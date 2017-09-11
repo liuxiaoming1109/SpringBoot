@@ -21,4 +21,5 @@ Java EE开发的颠覆者，Spring Boot实战练习
 
 4、Profile: com.evan.springboot.chapter2.profile
 
-5、事件(Application Event): 
+5、事件(Application Event): com.evan.springboot.chapter2.event
+
