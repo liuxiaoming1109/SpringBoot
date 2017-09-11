@@ -1,0 +1,3 @@
+Spring EL和资源调用
+book.author=evan
+book.name=spring boot
