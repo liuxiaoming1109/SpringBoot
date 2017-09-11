@@ -3,8 +3,7 @@
 Java EE开发的颠覆者，Spring Boot实战练习
 
 
-
-第一章 chapter1  Spring基础
+**第一章 chapter1  Spring基础**
 
 1、基础配置 依赖注入: com.evan.springboot.chapter1.di
 
@@ -13,7 +12,7 @@ Java EE开发的颠覆者，Spring Boot实战练习
 3、AOP: com.evan.springboot.chapter1.aop
 
 
-第二章 chapter2  Spring常用配置
+**第二章 chapter2  Spring常用配置**
 
 
 1、Bean的Scope: com.evan.springboot.chapter2.scope
@@ -28,7 +27,7 @@ Java EE开发的颠覆者，Spring Boot实战练习
 
 
 
-第三章 chapter3  Spring高级话题
+** 第三章 chapter3  Spring高级话题**
 
 
 1、Spring Aware: com.evan.springboot.chapter3.aware
