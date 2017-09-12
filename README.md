@@ -27,7 +27,7 @@ Java EE开发的颠覆者，Spring Boot实战练习
 
 
 
-** 第三章 chapter3  Spring高级话题**
+**第三章 chapter3  Spring高级话题**
 
 
 1、Spring Aware: com.evan.springboot.chapter3.aware
@@ -35,3 +35,11 @@ Java EE开发的颠覆者，Spring Boot实战练习
 2、多线程: com.evan.springboot.chapter3.taskexecutor
 
 3、计划任务: com.evan.springboot.chapter3.taskscheduler
+
+4、条件注解@Conditional: com.evan.springboot.chapter3.conditional 暂时有问题 待解决
+
+5、组合注解与元注解: com.evan.springboot.chapter3.annotation
+
+6、@Enable*注解的工作原理: com.evan.springboot.chapter3.enable
+
+7、测试: com.evan.springboot.chapter3.fortest
