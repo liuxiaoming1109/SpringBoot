@@ -1,4 +1,4 @@
-package com.evan.springmvc.chapter1;
+package com.evan.springmvc.chapter4;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

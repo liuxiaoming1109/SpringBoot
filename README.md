@@ -48,4 +48,16 @@ Java EE开发的颠覆者，Spring Boot实战练习
 **第四章 chapter4  Spring MVC基础**
 
 
-1、Spring MVC项目快速搭建: com.evan.springmvc.chapter1
+1、Spring MVC项目快速搭建: com.evan.springmvc.chapter4.web
+
+2、Spring MVC的常用注解: com.evan.springmvc.chapter4.web.ch4_3
+
+3、静态资源映射: com.evan.springmvc.chapter4.MyMvcConfig
+
+4、拦截器配置: com.evan.springmvc.chapter4.interceptor
+
+5、@ControllerAdvice: com.evan.springmvc.chapter4.web.ch4_4
+
+6、其他配置: com.evan.springmvc.chapter4.web.ch4_4
+
+7、Spring MVC的高级配置 - 文件上传配置: 
