@@ -3,7 +3,7 @@
 Java EE开发的颠覆者，Spring Boot实战练习
 
 
-**spring_mvc project**
+**工程目录 spring_mvc**
 
 **第一章 chapter1  Spring基础**
 
