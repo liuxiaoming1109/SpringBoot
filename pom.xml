@@ -157,11 +157,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>4.1.6.RELEASE</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+            <scope>test</scope><!-- scope 说明这些包的存活是在test周期，也就是意味着发布时我们将不包含这些jar包 -->
         </dependency>
 
     </dependencies>

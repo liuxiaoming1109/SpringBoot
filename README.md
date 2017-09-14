@@ -60,4 +60,12 @@ Java EE开发的颠覆者，Spring Boot实战练习
 
 6、其他配置: com.evan.springmvc.chapter4.web.ch4_4
 
-7、Spring MVC的高级配置 - 文件上传配置: 
+7、Spring MVC的高级配置 - 文件上传配置: com.evan.springmvc.chapter4.web.ch4_5.UploadController
+
+8、自定义HttpMessageConverter: com.evan.springmvc.chapter4.web.ch4_5.ConverterController
+
+9、服务端推送技术: com.evan.springmvc.chapter4.web.ch4_5.SseController
+
+10、Servlet3.0+异步方法处理: com.evan.springmvc.chapter4.web.ch4_5.AysncController
+
+11、Spring MVC的测试 com.evan.springmvc.chapter4.web.ch4_6

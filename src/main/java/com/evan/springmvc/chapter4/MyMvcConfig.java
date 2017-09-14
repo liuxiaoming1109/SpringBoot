@@ -1,20 +1,26 @@
 package com.evan.springmvc.chapter4;
 
 import com.evan.springmvc.chapter4.interceptor.DemoInterceptor;
+import com.evan.springmvc.chapter4.messageconverter.MyMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.test.context.ContextConfiguration;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
+import java.util.List;
+
 /**
  * Created by liuxm on 2017/9/12.
  */
-@ContextConfiguration
+@Configuration
 @EnableWebMvc // 若无此句，重写WebMvcConfigurerAdapter无效
+@EnableScheduling
 @ComponentScan("com.evan.springmvc.chapter4")
 public class MyMvcConfig extends WebMvcConfigurerAdapter {
 
@@ -52,6 +58,9 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/index").setViewName("/index");
         registry.addViewController("/toUpload").setViewName("/upload");
+        registry.addViewController("/converter").setViewName("/converter");
+        registry.addViewController("/sse").setViewName("/sse");
+        registry.addViewController("/async").setViewName("/async");
     }
 
     // configurePathMatch不忽略路径的. 号
@@ -65,6 +74,16 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
         CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver();
         multipartResolver.setMaxUploadSize(1000000);
         return multipartResolver;
+    }
+
+    @Override
+    public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+        converters.add(converter());
+    }
+
+    @Bean
+    public MyMessageConverter converter(){
+        return new MyMessageConverter();
     }
 
 }
